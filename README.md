@@ -1,10 +1,10 @@
-# Lab2: Shaders
+# SR6: Transformations
 
-Crear shaders interesantes utilizando los parámetros que tienen ya a su disposición.
+Cargar modelos 3D y modificar su posición y forma a través de transformaciones.
 
 ## Como ejecutar el codigo
 
-Descargue el repositorio [Lab2: Shaders](https://github.com/juanferdeleon/Lab2-Shaders)
+Descargue el repositorio [SR6: Transformations](https://github.com/juanferdeleon/SR6-Transformations)
 
 Luego ejecute el archivo [Engine3D.py](/Engine3D.py) dentro de cualquier IDE.
 
