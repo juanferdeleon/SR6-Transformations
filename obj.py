@@ -60,7 +60,7 @@ class ObjReader(object):
                     if prefix2 == 'Kd':
                         self.kD.append(list(map(float,value2.split(' '))))
             for index in range(len(self.matType)-1):
-                self.material[self.matType[index]] = self.Kd[index]
+                self.material[self.matType[index]] = self.kD[index]
         
         self.mater = ""
 

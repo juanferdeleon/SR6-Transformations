@@ -416,15 +416,6 @@ class Bitmap(object):
                 if color:
                     self.vertex_color = color
 
-                col = self.gourad2(
-                    xy = (x,y),
-                    bar = (w,v,u),
-                    varing_normals = normals_coords,
-                    light = light
-                )
-
-                self.vertex_color = col
-
                 if texture:
                     ta, tb, tc = tex_coords
                     tx = ta.x * w + tb.x * v + tc.x * u
@@ -432,15 +423,6 @@ class Bitmap(object):
                     
                     colo = texture.get_color(tx, ty, intensity)
                     self.vertex_color = colo
-
-                    col = self.gourad(
-                        bar = (w,v,u),
-                        texture_coord=(tx,ty),
-                        textu = texture,
-                        varing_normals = normals_coords,
-                        light = light
-                    )
-                    self.vertex_color = col
 
                 z = A.z * w + B.z * v + C.z * u
 
